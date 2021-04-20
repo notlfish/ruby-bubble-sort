@@ -19,7 +19,7 @@ end
 # Returns the sorted array
 def bubble_sort(array)
   n = array.length - 2
-  while n.positve?
+  while n >= 0
     i = 0
     while i <= n
       swap!(array, i) if array[i] > array[i + 1]
