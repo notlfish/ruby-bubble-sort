@@ -1,4 +1,4 @@
-# Project Name
+# Bubble Sort Algorithm Ruby Implementation
 
 > Ruby Bubble Sort
 > Implementation of the [bubble sort](en.wikipedia.org/wiki/Bubble_sort) algorithm for Array, on Ruby
@@ -9,41 +9,37 @@ The Bubble Sort algorithm is implemented as a method in a straightforward manner
 
 - Ruby 3.0.1
 - Gems:
-  -- Bundler
-  -- RuboCop
+  - Bundler
+  - RuboCop
 
 ## Getting Started
-To get a local copy up and running follow these simple example steps.
+
+To get a local copy up and running follow these simple steps.
 
 On GitHub bash
-   ```git clone https://github.com/notlfish/ruby-bubble-sort.git```
+`git clone https://github.com/notlfish/ruby-bubble-sort.git`
 
 ### Prerequisites
 
-### Setup
-
-### Install
-
-### Usage
+> Ruby must be installed on your computer (version 3.0.1)
 
 ### Run tests
-RuboCop is set up to run locally. Just run ```rubocop``` in the root of the repo.
 
-### Deployment
+RuboCop is set up to run locally. Just run `rubocop` in the root of the repo.
 
 ## Authors
 
-👤 **Author1**
+👤 **Ênio Neves de Souza**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@enionsouza](https://github.com/enionsouza)
+- Twitter: [@enionsouza](https://twitter.com/enionsouza)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/enio-neves-de-souza/)
 
 👤 **Lucas Ferrari Soto**
 
 - GitHub: [@notlfish](https://github.com/notlfish)
 - Twitter: [@LucasFerrariSo1](https://twitter.com/LucasFerrariSo1)
-- LinkedIn: [LinkedIn](https://linkedin.com/lucas-mauricio-ferrari-soto-472a3515a)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/lucas-mauricio-ferrari-soto-472a3515a/)
 
 ## 🤝 Contributing
 
