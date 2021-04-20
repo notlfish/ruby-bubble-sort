@@ -1,32 +1,49 @@
-# Public: Format some data with the given format. Possible format
-# identifiers include:
+# Internal: Swaps indexed element of an array with the next element.
+# Doesn't check if the elements exist. Modifies the array.
 #
-# %i   - Output the Integer i.
-# %f.n - Output a Float f with n decimal places rounded.
+# %Array - Array to modify
+# %i - index of the element to be swapped
 #
-# The format String may include any text. To escape a percent sign, prefix
-# it with a backslash:
-#
-#   "The sale price was %f.n\% off retail."#
-
-def swap(arr, i)
-  temp = arr[i]
-  arr[i] = arr[i+1]
-  arr[i+1] = temp
+# Returns the modified array.
+def swap!(arr, idx)
+  temp = arr[idx]
+  arr[idx] = arr[idx + 1]
+  arr[idx + 1] = temp
   arr
 end
 
+# Public: Sorts a numeric array in increasing order. Modifies the input array.
+#
+# %Array - Array to be sorted
+#
+# Returns the sorted array
 def bubble_sort(array)
   n = array.length - 2
-  i = 0
-  while n > 0
+  while n.positve?
+    i = 0
     while i <= n
-      if array[i] > array[i+1]
-        swap(array, i)
-      end
+      swap!(array, i) if array[i] > array[i + 1]
       i += 1
     end
     n -= 1
   end
+  array
+end
 
+# Public: Sorts a numeric array in increasing order. Modifies the input array.
+#
+# %Array - Array to be sorted
+#
+# block - An optional block that can be used to customize the
+#         comparison function.
+#
+# Returns the sorted array
+def bubble_sort_by(array)
+  len = array.length - 1
+  len.downto(1) do |bound|
+    bound.times do |i|
+      swap!(array, i) if yield(array[i], array[i + 1]).positive?
+    end
+  end
+  array
 end
