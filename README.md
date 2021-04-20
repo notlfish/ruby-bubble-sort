@@ -8,15 +8,15 @@ The Bubble Sort algorithm is implemented as a method in a straightforward manner
 ## Built With
 
 - Ruby 3.0.1
-- Gem, bundler, RuboCop
+- Gems:
+  -- Bundler
+  -- RuboCop
 
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
 To get a local copy up and running follow these simple example steps.
+
+On GitHub bash
+   ```git clone https://github.com/notlfish/ruby-bubble-sort.git```
 
 ### Prerequisites
 
@@ -27,10 +27,9 @@ To get a local copy up and running follow these simple example steps.
 ### Usage
 
 ### Run tests
+RuboCop is set up to run locally. Just run ```rubocop``` in the root of the repo.
 
 ### Deployment
-
-
 
 ## Authors
 
@@ -40,17 +39,17 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
 - LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
 
-👤 **Author2**
+👤 **Lucas Ferrari Soto**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/linkedinhandle)
+- GitHub: [@notlfish](https://github.com/notlfish)
+- Twitter: [@LucasFerrariSo1](https://twitter.com/LucasFerrariSo1)
+- LinkedIn: [LinkedIn](https://linkedin.com/lucas-mauricio-ferrari-soto-472a3515a)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/notlfish/ruby-bubble-sort/issues).
 
 ## Show your support
 
@@ -58,9 +57,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+This code is a project for [Microverse](https://www.microverse.org/), and its specification is taken from [The Odin Project](https://www.theodinproject.com/home)
 
 ## 📝 License
 
