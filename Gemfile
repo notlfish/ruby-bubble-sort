@@ -1,6 +1,3 @@
-# frozen_string_literal: true
 source 'https://rubygems.org'
 
-group :development do
-  gem 'rubocop-gemfile', require: false
-end
+gem 'rubocop', '>= 1.0', '< 2.0'
