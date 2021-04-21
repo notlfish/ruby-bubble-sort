@@ -17,9 +17,9 @@ The Bubble Sort algorithm is implemented as a method in a straightforward manner
 To get a local copy up and running follow these simple steps.
 
 On GitHub bash
-`git clone https://github.com/notlfish/ruby-bubble-sort.git`
-`cd ruby-bubble-sort` to enter the project folder in GitBash.
-Open `bubble_sort.rb` in an editor to see the code.
+- `git clone https://github.com/notlfish/ruby-bubble-sort.git`
+- `cd ruby-bubble-sort` to enter the project folder in GitBash.
+- Open `bubble_sort.rb` in an editor to see the code.
 
 ### Prerequisites
 
